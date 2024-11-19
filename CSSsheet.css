@@ -1,0 +1,87 @@
+﻿body {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/024/478/864/non_2x/blank-color-background-with-blue-mesh-gradient-for-graphic-design-element-vector.jpg);
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:darkblue;
+}
+
+li {
+    float:left;
+}
+
+    li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+        li a:hover {
+            background-color:ActiveBorder;
+        }
+
+
+
+
+
+        img{
+            width:300px;
+      
+            
+        }
+
+
+
+h1 {
+    font-size: 250%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(5, 210, 247);
+}
+
+h2 {
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgba(22, 14, 104, 0.977);
+}
+
+p{
+    color:azure;
+}
+
+h3 {
+    color: rgb(0, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+.product-box {
+    position:relative;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    text-align:center;
+    overflow:hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+  }
+ 
+  .product-box.hovered {
+    transform: scale(1.05);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); 
+  }
+  
+
